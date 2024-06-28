@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <link rel="stylesheet" href="InputForm.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <p>Username:</p>
+            <input type="text" id="loginUsername" required>
+            <p>Password:</p>
+            <input type="password" id="loginPassword" required>
+            <div class="btn">
+                <button id="loginBtn">Login</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <p>Username:</p>
+            <input type="text" id="signupUsername" required>
+            <p>Password:</p>
+            <input type="password" id="signupPassword" required>
+            <div id="passwordValidation"></div>
+            <div class="btn">
+                <button type="button" id="signupBtn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

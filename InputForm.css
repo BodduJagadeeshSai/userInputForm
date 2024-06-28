@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(232, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #1f8e1d;
+    color: white;
+    border: none;
+    justify-content: center;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#passwordValidation {
+    color: red;
+    margin-bottom: 10px;
+}
